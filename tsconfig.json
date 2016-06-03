@@ -7,7 +7,7 @@
         "watch": true,
         "experimentalDecorators": true,
         "emitDecoratorMetadata": true,
-        "outDir": "output"
+        "outDir": "${workspaceRoot}/output"
     },
     "exclude": [
         "node_modules"

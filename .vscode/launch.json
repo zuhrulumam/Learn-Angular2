@@ -4,11 +4,10 @@
         {
             "name": "TS Debuger",
             "type": "node",
-            "program": "main.ts",
+            "program": "${workspaceRoot}/main.ts",
             "stopOnEntry": false,
             "sourceMaps": true,
-            "outDir": "output",
-            "preLaunchTask": "npm"
+            "outDir": "${workspaceRoot}/output"            
         }
     ]
 }
