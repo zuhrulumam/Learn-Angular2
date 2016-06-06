@@ -1,4 +1,5 @@
 import {IMyInterface} from './IMyInterface'
+import {Person} from './Person'
 
 let myobj : IMyInterface = {
     id : 1,
@@ -11,3 +12,8 @@ let myobj : IMyInterface = {
 };
 
 let sum = myobj.sum([1,2,3]);
+
+let person = new Person();
+
+person.height = 1;
+person.addHeight();
